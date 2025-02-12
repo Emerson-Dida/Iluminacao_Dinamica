@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Projeto Iluminação</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="alertas">
+        <h1>Projeto Iluminação</h1>
+        <span class="material-icons" id="menuIcon">menu</span>
+      </div>
+    </header>
+    <header class="container">
+      <nav class="NavBar">
+        <ul class="ManualInstrucao">
+          <li>
+            <h2>Interruptor Geral</h2>
+            <p>Cligue para ligar ou desligar todas as lampadas</p>
+          </li>
+          <li>
+            <h2>Controle Individual</h2>
+            <p>
+              Controle cada lâmpada de forma individual através dos botões Lamp.
+            </p>
+          </li>
+          <li>
+            <h2>Atenção</h2>
+            <p>
+              Caso você dê um clique duplo em alguma lâmpada este sistema não
+              será responsável!
+            </p>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="lampadas">
+        <h2>L1</h2>
+        <img src="img/desligada.png" alt="lampada" id="lampada1" />
+
+        <h2>L2</h2>
+        <img src="img/desligada.png" alt="lampada" id="lampada2" />
+
+        <h2>L3</h2>
+        <img src="img/desligada.png" alt="lampada" id="lampada3" />
+      </section>
+
+      <section class="button">
+        <div>
+          <h3>lamp. 1</h3>
+          <button id="lamp1">Acender</button>
+        </div>
+        <div>
+          <h3>lamp. 2</h3>
+          <button id="lamp2">Acender</button>
+        </div>
+        <div>
+          <h3>lamp. 3</h3>
+          <button id="lamp3">Acender</button>
+        </div>
+
+        <div>
+          <h3>Interrup. Geral</h3>
+          <button id="desligarTudo" class="desligartudo">Ligar Tudo</button>
+        </div>
+      </section>
+
+      <p id="alerta"></p>
+
+      <footer>
+        <h3>Todos os Direitos Reservados!</h3>
+        <p>
+          Idealizado e Produzido por Emerson Santos Teixeira após 30 dias de
+          estudo!
+        </p>
+      </footer>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
